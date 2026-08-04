@@ -1,0 +1,37 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: agile-project-manager
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:agile_pm.db
+    username: ""
+    password: ""
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+# SpringDoc OpenAPI / Swagger Configuration
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: alpha
+    tagsSorter: alpha
+    displayRequestDuration: true
+
+# Custom Application Configs
+app:
+  scheduler:
+    overdue-cron: "0 0 * * * ?" # Hourly task
+    overdue-enabled: true
