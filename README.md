@@ -150,7 +150,7 @@ AI tools were utilized during architecture planning, DTO modeling, and frontend 
 
 ---
 
-## Project Video
+## 🎦 Project Video
 
 https://github.com/user-attachments/assets/c5688d2a-478e-4c5a-af39-bde68dd69e18
 
