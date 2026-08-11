@@ -147,3 +147,5 @@ AI tools were utilized during architecture planning, DTO modeling, and frontend 
 - Add Role-Based Access Control (Admin, Scrum Master, Developer).
 - Add WebSocket real-time collaboration updates.
 - File attachments and comment threads on Tasks.
+
+https://github.com/user-attachments/assets/c5688d2a-478e-4c5a-af39-bde68dd69e18
