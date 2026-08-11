@@ -3,6 +3,9 @@
 A production-grade, enterprise-ready Full-Stack Agile Project Management Tool designed for small software development teams (3–10 users). Supports hierarchical work tracking (**Project → User Story → Task**), real-time progress analytics, an interactive Kanban board, dark mode, and an asynchronous background task scheduler.
 
 ---
+## Project demo video
+https://github.com/user-attachments/assets/c5688d2a-478e-4c5a-af39-bde68dd69e18
+
 
 ## 🚀 Technology Stack
 
@@ -148,4 +151,4 @@ AI tools were utilized during architecture planning, DTO modeling, and frontend 
 - Add WebSocket real-time collaboration updates.
 - File attachments and comment threads on Tasks.
 
-https://github.com/user-attachments/assets/c5688d2a-478e-4c5a-af39-bde68dd69e18
+
